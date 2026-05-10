@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Aurum Luxury Restaurant</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0b0b;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: gold;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-box {
+  background: rgba(0,0,0,0.6);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  color: gold;
+  margin: 0;
+}
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+button {
+  padding: 12px 20px;
+  background: gold;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 15px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#menu">Menu</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div id="home" class="hero">
+  <div class="hero-box">
+    <h1>AURUM</h1>
+    <p>Luxury Dining Experience</p>
+    <button>Reserve Table</button>
+  </div>
+</div>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>We serve world-class luxury meals crafted with passion and excellence.</p>
+</section>
+
+<section id="menu">
+  <h2>Menu</h2>
+  <div class="menu">
+    <div class="card">Wagyu Steak</div>
+    <div class="card">Seafood Pasta</div>
+    <div class="card">Chocolate Dessert</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Lagos, Nigeria</p>
+  <p>+234 XXX XXX XXX</p>
+</section>
+
+<a class="whatsapp" href="https://wa.me/234XXXXXXXXXX">
+💬 Order on WhatsApp
+</a>
+
+</body>
+</html>
